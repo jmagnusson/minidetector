@@ -13,6 +13,9 @@ setup(
         "minidetector",
         "minidetector.tests",
     ],
+    package_data={
+        "minidetector": ["search_strings.txt"],
+    },
     classifiers = [
         "Development Status :: 3 - Alpha",
         "Environment :: Web Environment",
@@ -21,5 +24,5 @@ setup(
         "Operating System :: OS Independent",
         "Programming Language :: Python",
         "Framework :: Django",
-    ]
+    ],
 )
